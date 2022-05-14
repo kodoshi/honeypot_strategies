@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "imagery-sending client",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "honeypot"
+  ],
+  "author": "KZ",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "querystring": "^0.2.1"
+  }
+}
